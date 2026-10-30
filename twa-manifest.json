@@ -1,0 +1,31 @@
+{
+  "packageId": "com.mbcap.dex",
+  "host": "mbcap.app",
+  "name": "MBCap",
+  "launcherName": "MBCap",
+  "display": "standalone",
+  "themeColor": "#07090e",
+  "navigationColor": "#07090e",
+  "backgroundColor": "#07090e",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://raw.githubusercontent.com/favicon.ico",
+  "maskableIconUrl": "https://raw.githubusercontent.com/favicon.ico",
+  "appVersionName": "1.2.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  }
+}

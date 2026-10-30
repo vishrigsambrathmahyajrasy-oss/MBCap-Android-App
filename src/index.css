@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-mono);
+    background-color: #080a0f;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars for trading terminal tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d111a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2638;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2e3b56;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.glow-green {
+  box-shadow: 0 0 15px rgba(46, 230, 166, 0.25);
+}
+
+.glow-gold {
+  box-shadow: 0 0 15px rgba(245, 179, 27, 0.25);
+}

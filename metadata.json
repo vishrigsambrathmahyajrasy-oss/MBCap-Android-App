@@ -1,0 +1,8 @@
+{
+  "name": "MBCap",
+  "description": "Live real trading terminal and decentralized crypto swapper for customers with Web3 wallet connection, on-chain swaps, live charts, and DEX market discovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

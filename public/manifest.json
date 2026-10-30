@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "MBCap",
+  "short_name": "MBCap",
+  "description": "Live real trading terminal and decentralized crypto swapper for customers with Web3 wallet connection, on-chain swaps, live charts, and DEX market discovery.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#07090e",
+  "background_color": "#07090e",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["finance", "business", "utilities"]
+}
